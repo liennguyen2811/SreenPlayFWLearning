@@ -1,0 +1,10 @@
+fpt\selenium\screenplay\tasks\Search.class
+fpt\selenium\screenplay\tasks\OpenTheApplication.class
+fpt\selenium\screenplay\features\search\LaunchSeleniumEasy.class
+fpt\selenium\screenplay\tasks\Home.class
+fpt\selenium\screenplay\ui\GoogleSearchPage.class
+fpt\selenium\screenplay\ui\HomePageElements.class
+fpt\selenium\screenplay\ui\HomePage.class
+fpt\selenium\screenplay\ui\SearchBox.class
+fpt\selenium\screenplay\features\search\package-info.class
+fpt\selenium\screenplay\features\search\SearchByKeywordStory.class

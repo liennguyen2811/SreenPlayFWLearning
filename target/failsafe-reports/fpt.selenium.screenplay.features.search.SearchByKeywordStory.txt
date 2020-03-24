@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: fpt.selenium.screenplay.features.search.SearchByKeywordStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.122 s <<< FAILURE! - in fpt.selenium.screenplay.features.search.SearchByKeywordStory
+search_results_should_show_the_search_term_in_the_title(fpt.selenium.screenplay.features.search.SearchByKeywordStory)  Time elapsed: 1.235 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (The driver executable does not exist: D:\web-screenplay-junit\..\drivers\geckodriver.exe). See below for more details.
+	at fpt.selenium.screenplay.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_title(SearchByKeywordStory.java:41)
+

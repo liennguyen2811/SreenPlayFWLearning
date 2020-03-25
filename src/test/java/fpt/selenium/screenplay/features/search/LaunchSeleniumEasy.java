@@ -1,9 +1,6 @@
 package fpt.selenium.screenplay.features.search;
 
-import fpt.selenium.screenplay.tasks.GoToInputForm;
-import fpt.selenium.screenplay.tasks.OpenSeleniumEasyApplication;
-import fpt.selenium.screenplay.tasks.OpenTheApplication;
-import fpt.selenium.screenplay.tasks.Search;
+import fpt.selenium.screenplay.tasks.*;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -41,6 +38,7 @@ public class LaunchSeleniumEasy {
         givenThat(anna).wasAbleTo(openSeleniumEasyApplication);
 
         when(anna).attemptsTo(GoToInputForm.goToInputForm());
+        when(anna).attemptsTo(InputValueToSimpleFrom.inputValueToSimpleFrom());
 
        // then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("BDD In Action"))));
 

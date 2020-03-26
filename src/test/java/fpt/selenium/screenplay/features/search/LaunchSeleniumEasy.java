@@ -36,11 +36,10 @@ public class LaunchSeleniumEasy {
     public void search_results_should_show_the_search_term_in_the_title() {
 
         givenThat(anna).wasAbleTo(openSeleniumEasyApplication);
-
         when(anna).attemptsTo(GoToInputForm.goToInputForm());
-        when(anna).attemptsTo(InputValueToSimpleFrom.inputValueToSimpleFrom());
+        when(anna).attemptsTo(InputValueToSimpleFrom.inputValueToSimpleFrom("3"));
 
-       // then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("BDD In Action"))));
+        then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("BDD In Action"))));
 
     }
 }

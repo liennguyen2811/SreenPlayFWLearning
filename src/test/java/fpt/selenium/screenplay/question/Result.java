@@ -5,8 +5,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-import static net.serenitybdd.screenplay.Tasks.instrumented;
-
 
 public class Result implements Question <String> {
 
@@ -14,7 +12,7 @@ public class Result implements Question <String> {
     public String answeredBy(Actor actor) {
          return Text.of(SimpleFormDemoElements.DISPLAY_VALUE);
     }
-    public static Result result( ) {
-        return instrumented(Result.class);
+    public static Result result() {
+        return new Result();
     }
 }
